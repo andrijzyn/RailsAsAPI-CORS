@@ -1,0 +1,5 @@
+en:
+  button:
+    pressed: "Button is now pressed"
+    unpressed: "Button is now unpressed"
+    error: "An error occurred"
