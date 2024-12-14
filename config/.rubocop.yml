@@ -1,0 +1,77 @@
+AllCops:
+  SuggestExtensions: false
+  NewCops: enable
+  Exclude:
+    - 'bin/**/*'
+
+inherit_gem:
+  rubocop-github:
+    - config/default.yml # generic Ruby rules and cops
+    - config/rails.yml # Rails-specific rules and cops
+
+Gemspec/AddRuntimeDependency:
+  Enabled: true
+
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: true
+
+Gemspec/DevelopmentDependencies:
+  Enabled: true
+
+Gemspec/RequireMFA:
+  Enabled: true
+
+Layout/LineContinuationLeadingSpace:
+  Enabled: true
+
+Layout/LineContinuationSpacing:
+  Enabled: true
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+
+Layout/SpaceBeforeBrackets:
+  Enabled: true
+
+Lint/AmbiguousAssignment:
+  Enabled: true
+
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: true
+
+Lint/AmbiguousRange:
+  Enabled: true
+
+Lint/ConstantOverwrittenInRescue:
+  Enabled: true
+
+Lint/DeprecatedConstants:
+  Enabled: true
+
+Metrics/CyclomaticComplexity:
+  Max: 7
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 10
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Max: 8
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
