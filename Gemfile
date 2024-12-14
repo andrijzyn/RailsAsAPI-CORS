@@ -27,5 +27,6 @@ end
 
 group :development do
   gem 'brakeman', '~> 5.0'
+  gem 'rubocop'
 end
 
