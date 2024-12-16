@@ -26,7 +26,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'brakeman', '~> 5.0'
+  gem 'brakeman', '~> 6.2'
   gem 'rubocop'
 end
 
